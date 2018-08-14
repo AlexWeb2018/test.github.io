@@ -1,0 +1,35 @@
+.main{
+  width: 600px;
+}
+
+.wrapper .active {
+  color: red;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+}
+
+.tabs{
+  margin-left: 1em;
+  display: flex;
+}
+
+.tab{
+  cursor: pointer;
+  border: 1px solid #0076c0;
+  border-radius: 3px 3px 0 0;
+  padding: .5em 1em;
+  display: inline-block;
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  width: 300px;
+}
+.tab_item {
+  border: 1px solid #0076c0;
+  border-radius: 3px;
+  padding: 0 1em;
+  width: 550px;
+  height: 200px;
+  margin-left: 1em;
+}
